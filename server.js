@@ -57,11 +57,26 @@ inquirer.prompt([
 
     switch(choice) {
         case "VIEW-ALL-DEPARTMENTS":
-          viewAllDepartments();
-          break;
+            viewAllDepartments();
+            break;
         case "VIEW-ALL-ROLES":
             viewAllRoles();  
-          break;
+            break;
+        case "VIEW-ALL-EMPLOYEES":
+            viewAllEmployees();
+            break;
+        case "ADD-A-EMPLOYEE":
+            viewAllEmployee();
+            break;
+        case "ADD-A-DEPARTMENT":
+            viewAllDepartment();
+            break;
+        case "ADD-A-EMPLOYEE":
+            viewAllEmployee();
+            break;
+        case "UPDATE-A-EMPLOYEE":
+            viewAllUpdateEmployee();
+            break;
         default:
           // code block
       }
@@ -76,6 +91,9 @@ inquirer.prompt([
 
 function viewAllDepartments() {
     console.log("view departs");
+    //make sure database has seeds 
+    //query the database to find the employees
+    //use console.table to log variable for the departments
 }
 
 function viewAllRoles() {
