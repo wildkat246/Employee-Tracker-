@@ -5,3 +5,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 ## Screenshot of final page:
 
 ![Completed Application Page](/assets/images/12-Employee-Tracker-Final-SS.png)
+
+## Video walk-through:
+
+https://watch.screencastify.com/v/sR9TBN01gA6rMSO35PQp
