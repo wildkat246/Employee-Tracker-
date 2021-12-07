@@ -1,11 +1,11 @@
-INSERT INTO department_table (department_name)
+INSERT INTO department (department_name)
 VALUES 
         ("Research"),
         ("Finance"),
         ("IT"),
         ("HR");
 
-INSERT INTO role_table (title, salary, department_id)
+INSERT INTO position (title, salary, department_id)
 VALUES
         ("Manager", 100000, 4),
         ("Lead Engineer", 80000, 3),
@@ -14,7 +14,7 @@ VALUES
         ("Lead Researcher", 90000, 1),
         ("Intern", 30000, 4);
 
-INSERT INTO employee_table (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
         ("Dominic", "Toretto", 5, null),
         ("Brian", "Oconner", 6, 1),
